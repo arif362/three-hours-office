@@ -59,3 +59,79 @@ Homestead.yaml
 # Allowlist a few commonly tracked files if needed (uncomment to use)
 # !app/public/wp-content/plugins/ (if you track plugins)
 # !app/public/wp-content/themes/ (if you track themes)
+# =====================
+# WordPress Core (Don't Commit)
+# =====================
+/wp-admin/
+/wp-includes/
+/index.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/license.txt
+/readme.html
+/wp-config.php  # We'll handle this separately
+
+# =====================
+# Uploads & Content
+# =====================
+/wp-content/uploads/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/
+/wp-content/backups/
+
+# =====================
+# Plugins & Themes (General Rule)
+# =====================
+/wp-content/plugins/*
+!/wp-content/plugins/.gitkeep
+/wp-content/themes/*
+!/wp-content/themes/.gitkeep
+
+# =====================
+# Environment & OS Files
+# =====================
+.env
+.env.local
+.env.production
+.DS_Store
+Thumbs.db
+*.log
+
+# =====================
+# IDE & Editor Files
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# Dependency Directories
+# =====================
+/node_modules/
+/vendor/
+/composer.lock
+package-lock.json
+yarn.lock
+
+# =====================
+# Database & Backup Files
+# =====================
+*.sql
+*.gz
+*.zip

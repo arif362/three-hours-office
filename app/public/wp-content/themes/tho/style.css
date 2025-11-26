@@ -1,0 +1,28 @@
+/*
+Theme Name: Three Hours Office (tho)
+Theme URI: https://example.com/three-hours-office
+Author: arif362
+Author URI: https://github.com/arif362
+Description: Custom WordPress theme for Three Hours Office.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom, responsive, accessibility-ready, company-website
+Text Domain: tho
+*/
+
+/* Basic theme styles */
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	background: #ffffff;
+	color: #222;
+}
+
+/* Add more theme CSS below */
+
+body {
+    background-color: blueviolet;
+}
